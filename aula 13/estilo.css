@@ -1,0 +1,67 @@
+*body{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    width: 960px;
+    height: 150px; 
+    margin: auto; 
+}
+#logo{
+    width: 200px;
+    height: 150px; 
+    float: left;
+}
+#logo img{
+    margin: 10px 10px 10px 10px;
+}
+#menu{
+    width: 760px;
+    height: 80px; 
+    float: right;
+    text-align: center;
+    word-spacing: 20px;
+    color:rgb(0, 0, 0);
+    margin-top: 50px;
+}
+#menu a{
+    text-decoration: none;
+}
+#menu a:hover{
+    color:rgb(0, 0, 255); 
+}
+#baner{
+    width: 960px;
+    height: 300px;
+    background-color: rgb(193, 251, 4); 
+    margin: auto; 
+}
+#propaganda{
+    width: 960px;
+    height: 200px;
+    background-color: rgb(146, 50, 230); 
+    margin: auto;
+}
+#conteudo{
+    width: 960px;
+    height: 600px;
+    margin: auto;
+}
+#direita{
+    width: 480px;
+    height: 600px;
+    background-color: rgb(255, 170, 0);
+    float: right;
+}
+#esquerda{
+    width: 480px;
+    height: 600px;
+    background-color: rgb(95, 98, 15);
+    float: left;
+}
+#rodape{
+    width: 960px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+}
