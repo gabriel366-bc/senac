@@ -33,16 +33,20 @@
     color:rgb(0, 0, 255); 
 }
 #baner{
-    width: 960px;
-    height: 300px;
-    background-color: rgb(193, 251, 4); 
+    width: 100%;
+    height: 400px;
     margin: auto; 
+}
+#baner img{
+    width: 100%;
 }
 #propaganda{
     width: 960px;
     height: 200px;
-    background-color: rgb(146, 50, 230); 
     margin: auto;
+}
+#propaganda img{
+    margin: 10px 80px 50px 40px;
 }
 #conteudo{
     width: 960px;
@@ -50,20 +54,40 @@
     margin: auto;
 }
 #direita{
-    width: 480px;
+    width: 460px;
     height: 600px;
-    background-color: rgb(255, 170, 0);
     float: right;
 }
 #esquerda{
-    width: 480px;
+    width: 460px;
     height: 600px;
-    background-color: rgb(95, 98, 15);
     float: left;
 }
 #rodape{
-    width: 960px;
+    width: 100%px;
     height: 100px;
-    background-color: rgb(0, 0, 0);
     margin: auto;
+}
+.estilizacao{
+    text-align: justify;
+}
+.titulo{
+    text-align: left;
+    font-size: 24px;
+    color:rgb(233, 225, 0);
+    font-size: 40px;
+}
+
+.paragrafoRodape{
+    text-align: center;
+    color:rgb(4, 0, 255);
+    padding-top: 20px;
+}
+#conteudo2{
+    width: 960px;
+    height: 400px;
+    margin: auto;
+}
+#conteudo2 img{
+    width: 99%;
 }
